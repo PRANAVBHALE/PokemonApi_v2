@@ -10,8 +10,8 @@ PokemonDetails - https://pokeapi.co/api/v2/pokemon/:name
 
 # This app covers the following aspects:
 
-- A paginated list of Pokémons (50 per page).
-- A click based favorite selection
+- A paginated list of Pokémons (10 per page).
+- A click on pokeball based favorite selection
 - Clicking on any Pokémon opens a new page with the details for the selected
   Pokémon.
 - Unit tests for the list and single page.
@@ -24,3 +24,10 @@ PokemonDetails - https://pokeapi.co/api/v2/pokemon/:name
 - Jest - Testing Env.
 - React testing library - Testing UI
 - Cypress - E2E testing
+
+# Commads:
+
+- npm run dev - To start the app in dev mode.
+- npm run coverage - To check test coverage.
+- npm run test - To run test cases.
+- npm run cypress - To run cypress simulation for E2E testing.
